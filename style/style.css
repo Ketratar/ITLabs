@@ -1,0 +1,64 @@
+/* {
+  box-sizing: border-box;
+}*/
+html{
+	cursor: crosshair;
+}
+a{
+	cursor: crosshair;
+}
+
+.col-3 {
+  width: 33.333%; /* Можно задать любую другую ширину блока */
+  margin: .5rem;
+}
+
+.col-2 {
+  width: 50%; /* Можно задать любую другую ширину блока */
+  margin: .5rem;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.image{
+	height: 25%;
+	width: 25%;
+}
+
+.board{
+	background: url(../img/board.webp);
+	height: 100px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.infoboard{
+	background: #c7b39b url(../img/infoboard.webp);
+	background-size: cover;
+}
+
+.gif{
+	height: 10%;
+	width: 7%;
+	margin-right: 25%;
+}
+
+.txth{
+	margin-right:25%;
+	width: 66.666%;
+	text-align: center;
+}
+.txt{
+	text-align: center;
+}
+
+.textcolor{
+	color: yellow;
+}
+	

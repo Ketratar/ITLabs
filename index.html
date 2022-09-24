@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" href="img/favicon.ico" type="x-icon">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="script/script.js"></script>
+    <title>Личная страница</title>
+</head>
+<!--Я комментарий-->
+<body>
+	<div class = "row"> <!--Шапка страницы-->
+		<img class="col-3 image" src = "img/lefunny.webp" alt="Картинка грузится"/>
+		<div class = "col-3 txth">
+			<h1>Личная страница</h1>
+			<h2>Студента группы: ИДМ-22-02</h2>
+			<h2>Ярошенко Даниила</h2>
+		</div>
+	</div>
+	<hr>
+		<div class="row board""> <!--Выбор лабораторной работы-->
+			<a href="#" onclick="lab1f(); return false;" class="col-3 textcolor txt">Лабораторная работа 1</a>
+			<a href="#" onclick="lab2f(); return false;" class="col-3 textcolor txt">Лабораторная работа 2</a>
+			<a href="#" onclick="lab3f(); return false;" class="col-3 textcolor txt">Лабораторная работа 3</a>
+		</div>
+	<hr>
+	<div><!--Блок для информации-->
+		<div id="info1" style="display:none">
+			<p>1. Регистрация на github.com</p>
+			<p>2. Создание личного проекта</p>
+			<p>3. Создание файла readme.md в личном проекте с бланком отчета о лабораторных работах</p>
+			<hr>
+		</div>
+		<div id="info2" style="display:none">
+			<p>Будет по мере прохождения лабораторной</p>
+			<hr>
+		</div>
+		<div id="info3" style="display:none">
+			<p>Будет по мере прохождения лабораторной</p>
+			<hr>
+		</div>
+	</div>
+</body>
+</html>
