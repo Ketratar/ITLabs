@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" href="../img/favicon.ico" type="x-icon">
+	<link rel="stylesheet" href="../style/style.css">
+	<script src="../script/lab2.js"></script>
+    <title>Лабораторная 2</title>
+</head>
+<body>
+	<h1 align="center">Бинаризация</h1>
+	<div>
+		<img id="previewPhoto" class="previewPhoto" />
+	</div>
+	<hr>
+	<div>
+		<div>
+			<input type="file" id="Photo" name="Photo" onchange="previewPhoto()" accept=".jpg, .jpeg, .png, .webp" />
+		</div>
+		<div>
+			<input type="button" name="Binar" value="Бинаризировать" onclick="Binar()" />
+		</div>
+	</div>
+	<hr>
+	<div>
+		<canvas id="cancan" />
+	</div>
+</body>
+</html>

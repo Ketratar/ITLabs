@@ -61,4 +61,18 @@ a{
 .textcolor{
 	color: yellow;
 }
-	
+
+#previewPhoto {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid;
+}
+
+.bin_params{
+	border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+    margin: 4px;
+}
