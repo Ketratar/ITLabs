@@ -19,6 +19,7 @@ function Binar()
     var canvas = document.getElementById("cancan");
     var ctx = canvas.getContext("2d");
     var img = document.getElementById("previewPhoto");
+
 	canvas.height = img.height;
 	canvas.width = img.width;
     ctx.drawImage(img, 0, 0, img.width, img.height);
@@ -26,6 +27,9 @@ function Binar()
 	const processedImageData = canvas.getContext('2d').getImageData(0,0,canvas.width, canvas.height);
 	thresholdFilter(processedImageData.data, level=0.4);
 	ctx.putImageData(processedImageData,0,0);
+		window.onresize = function() {
+		Binar();
+    };
 }
 
 function thresholdFilter(pixels, level) 

@@ -50,8 +50,8 @@ a{
 }
 
 .txth{
-	margin-right:25%;
-	width: 66.666%;
+	/*margin-right: 25%*/;
+	width: 100%;
 	text-align: center;
 }
 .txt{
