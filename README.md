@@ -9,7 +9,7 @@
 
 ## Лабораторная 2
 Разработка простого веб-приложения (html,css,js + json,xml)
-Простая бинаризация изображения [ТУТ](https://ketratar.github.io/ITLabs/pages/lab2.html)
++ Простая бинаризация изображения [ТУТ](https://ketratar.github.io/ITLabs/pages/lab2.html)
 ## Лабораторная 3
 Работа с Cisco Packet Tracer.
 * Сценарий [Скачать](https://github.com/Ketratar/ITLabs/raw/main/CPT/project.pka)
